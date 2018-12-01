@@ -1,6 +1,6 @@
 {
   "name": "objmapper",
-  "version": "0.9.0",
+  "version": "1.0.0",
   "description": "Create a function to transform an object into another one",
   "main": "index.js",
   "scripts": {
