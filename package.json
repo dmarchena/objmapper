@@ -1,10 +1,15 @@
 {
   "name": "objmapper",
-  "version": "1.0.0",
+  "version": "0.9.0",
   "description": "Create a function to transform an object into another one",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "release:patch": "npm test && npm version patch",
+    "release:minor": "npm test && npm version minor",
+    "release:major": "npm test && npm version major",
+    "release:quick": "npm test && git add -A && git commit -m 'Quick release patch' && npm version patch",
+    "postversion": "git push && git push --tags && npm publish --access public"
   },
   "repository": {
     "type": "git",
@@ -26,6 +31,9 @@
     "@babel/preset-env": "^7.1.6",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^23.6.0",
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "jest": "^23.6.0"
   },
   "dependencies": {
@@ -33,6 +41,9 @@
   },
   "jest": {
     "collectCoverage": true,
-    "coverageReporters": ["lcov", "text"]
+    "coverageReporters": [
+      "lcov",
+      "text"
+    ]
   }
 }
