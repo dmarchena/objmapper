@@ -6,7 +6,7 @@ Create a function to transform an object into another one.
 Via npm:
 
 ```sh
-npm i -S objmapper
+npm i -S @dmarchena/objmapper
 ```
 
 ## API
@@ -38,13 +38,13 @@ Transformation object format:
 This tool is written in ES2015, so you can import it as a standard module:
 
 ```js
-import objmapper from 'objmapper';
+import objmapper from '@dmarchena/objmapper';
 ```
 
 ### Renaming
 
 ```js
-import objmapper from 'objmapper';
+import objmapper from '@dmarchena/objmapper';
 
 const om = objmapper({
   key: ['name', 'surname'],
@@ -60,7 +60,7 @@ const result = om({
 ### Transforming
 
 ```js
-import objmapper from 'objmapper';
+import objmapper from '@dmarchena/objmapper';
 
 const om = objmapper([{
   key: 'name',
@@ -81,7 +81,7 @@ const result = om({
 If you declare different `keyout`, original keys will be deleted.
 
 ```js
-import objmapper from 'objmapper';
+import objmapper from '@dmarchena/objmapper';
 
 const om = objmapper([{
   key: ['name', 'surname'],
