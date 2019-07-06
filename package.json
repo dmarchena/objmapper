@@ -1,6 +1,6 @@
 {
   "name": "@dmarchena/objmapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a function to transform an object into another one",
   "main": "index.js",
   "scripts": {
