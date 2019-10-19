@@ -1,4 +1,4 @@
-# objmapper [![Build Status](https://travis-ci.org/dmarchena/objmapper.svg?branch=master)](https://travis-ci.org/dmarchena/objmapper) [![Test Coverage](https://api.codeclimate.com/v1/badges/64e4b3f27ae478d24a81/test_coverage)](https://codeclimate.com/github/dmarchena/objmapper/test_coverage) [![Maintainability](https://api.codeclimate.com/v1/badges/64e4b3f27ae478d24a81/maintainability)](https://codeclimate.com/github/dmarchena/objmapper/maintainability)
+# objmapper [![Build Status](https://travis-ci.org/dmarchena/objmapper.svg?branch=master)](https://travis-ci.org/dmarchena/objmapper) [![Build status](https://ci.appveyor.com/api/projects/status/dg5u0qqfwaka84dj?svg=true)](https://ci.appveyor.com/project/dmarchena/objmapper) [![Test Coverage](https://api.codeclimate.com/v1/badges/64e4b3f27ae478d24a81/test_coverage)](https://codeclimate.com/github/dmarchena/objmapper/test_coverage) [![Maintainability](https://api.codeclimate.com/v1/badges/64e4b3f27ae478d24a81/maintainability)](https://codeclimate.com/github/dmarchena/objmapper/maintainability)
 Create a function to transform an object into another one.
 
 ## Installation
